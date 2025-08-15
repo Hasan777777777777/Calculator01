@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num9 = 746;
+console.log(Math.floor(num9 / 100));
+
+let num10 = 746;
+console.log(num10 % 10, Math.floor((num10 / 10) % 10));
+
+let num11 = 746;
+let a = Math.floor(num11 / 100);
+let b = Math.floor((num11 / 10) % 10);
+let c = num11 % 10;
+console.log(a + b + c, a * b * c);
+
+let num12 = 746;
+let d1 = num12 % 10;
+let d2 = Math.floor((num12 / 10) % 10);
+let d3 = Math.floor(num12 / 100);
+console.log(d1 * 100 + d2 * 10 + d3);
+
+let num13 = 746;
+let lastTwo = num13 % 100;
+let firstDigit = Math.floor(num13 / 100);
+console.log(lastTwo * 10 + firstDigit);
+
+let num14 = 746;
+let firstTwo = Math.floor(num14 / 10);
+let lastDigit = num14 % 10;
+console.log(lastDigit * 100 + firstTwo);
+
+let num15 = 123;
+let s1 = Math.floor(num15 / 100);
+let s2 = Math.floor((num15 / 10) % 10);
+let s3 = num15 % 10;
+console.log(s2 * 100 + s1 * 10 + s3);
+
+let num16 = 123;
+let t1 = Math.floor(num16 / 100);
+let t2 = Math.floor((num16 / 10) % 10);
+let t3 = num16 % 10;
+console.log(t1 * 100 + t3 * 10 + t2);
+
+let num17 = 12845;
+console.log(Math.floor(num17 / 100) % 10);
+
+let num18 = 12845;
+console.log(Math.floor(num18 / 1000) % 10);
+
+let N19 = 5432;
+console.log(Math.floor(N19 / 60));
+
+let N20 = 5432;
+console.log(Math.floor(N20 / 3600));
+
+let N21 = 5432;
+console.log(N21 % 60);
+
+let N22 = 5432;
+console.log(N22 % 3600);
+
+let N23 = 5432;
+console.log(Math.floor((N23 % 3600) / 60));
+
+let K24 = 100;
+console.log((K24 + 0 - 1) % 7);
+
+let K25 = 100;
+console.log((K25 + 3 - 1) % 7);
+
+let K26 = 100;
+console.log(((K26 + 1 - 2) % 7) + 1);
+
+let K27 = 100;
+console.log(((K27 + 6 - 2) % 7) + 1);
+
+let K28 = 100, N28 = 5;
+console.log(((K28 + N28 - 2) % 7) + 1);
+
+let A29 = 30, B29 = 20, C29 = 5;
+let rows29 = Math.floor(A29 / C29);
+let cols29 = Math.floor(B29 / C29);
+let squares29 = rows29 * cols29;
+let fullArea29 = A29 * B29;
+let usedArea29 = squares29 * C29 * C29;
+console.log(squares29, fullArea29 - usedArea29);
+
+let year30 = 2025;
+console.log(Math.floor((year30 - 1) / 100) + 1);
+
+    </script>
+</body>
+</html>
